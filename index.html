@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="container">
+  
+
+
+      <div class="card" data-nombre="boris" data-sexo="m" data-color="blanco">
+      <img src="http://www.placekitten.com/300">
+      <div class="title">
+        <h4>Boris</h4>
+      </div>
+    </div>
+    
+      <div class="card" data-nombre="pippin" data-sexo="m" data-color="negro">
+      <img src="http://www.placekitten.com/400">
+      <div class="title">
+        <h4>Pippin</h4>
+      </div>
+    </div>
+
+    <div class="card" data-nombre="artilugia" data-sexo="f" data-color="tricolor">
+      <img src="http://www.placekitten.com/200">
+      <div class="title">
+        <h4>Artilugia</h4>
+      </div>
+    </div>
+
+    <div class="card" data-nombre="carola" data-sexo="f" data-color="tricolor">
+      <img src="http://www.placekitten.com/200">
+      <div class="title">
+        <h4>Carola la del Barrio</h4>
+      </div>
+    </div>
+
+        
+    <div class="card" data-nombre="pepo" data-sexo="m" data-color="tricolor">
+      <img src="http://www.placekitten.com/500">
+      <div class="title">
+        <h4>Pepo</h4>
+      </div>
+    </div>
+  
+  </div>
+  
+<form>
+  <label for="filtro-nombre"> Filtrar por nombre
+    <input type="text" id="filtro-nombre">
+  </label>
+  
+  
+  <label> Filtrar por sexo  
+    <input type="radio" name="sexo" value="m">M
+    <input type="radio" name="sexo" value="f">F
+    <input type="radio" name="sexo" value="i">I
+  </label>
+
+  
+  <label>Filtrar por color</label>
+
+  <input type="checkbox" name="color" value="todos" /> Todos
+  <input type="checkbox" name="color" value="blanco" /> Blanco
+  <input type="checkbox" name="color" value="negro" /> Negro 
+  <input type="checkbox" name="color" value="tricolor" />Tricolor
+
+</form>
+
+  <script src="index.js"></script>
+</body>
+</html>
